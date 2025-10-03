@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+🏗️ Air Quality Construction Dashboard
 
-## Project info
+A web-based dashboard to monitor and visualize Air Quality Index (AQI) around construction sites, spread awareness about CPCB guidelines, and suggest low-cost mitigation measures. The platform helps construction companies, workers, and nearby communities stay informed and compliant.
 
-**URL**: https://lovable.dev/projects/f9035415-3ad4-44f3-9b3a-c3bf21227b61
+🚀 Features
+📊 Live AQI Data – Fetches real-time AQI data (from APIs or uploaded CSV).
+📈 AQI Trend Charts – Line/bar charts showing AQI variations over time.
+🛡️ CPCB Guidelines – Highlights key rules construction sites must follow.
+✅ Compliance Checklist – Self-audit for site managers to stay compliant.
+🌱 Mitigation Suggestions – Low-cost measures like water spraying, dust nets, and vegetation barriers.
+📡 Community QR – Share a QR code for nearby residents to access live dashboards.
+🔮 Predicted AQI – Simple ML model to forecast upcoming AQI levels.
+🛠️ Tech Stack
 
-## How can I edit this code?
+Frontend: React + TypeScript + TailwindCSS + Vite
+Charts: Recharts
+Backend (Optional): Python/Streamlit for ML models
+Deployment: Render / Vercel
 
-There are several ways of editing your application.
+📂 Project Structure
+air_quality_construction/
+│── public/           # static files
+│── src/              # source code
+│   ├── components/   # UI components (charts, metrics, QR, etc.)
+│   ├── hooks/        # custom React hooks
+│   ├── pages/        # app pages
+│   ├── App.tsx       # main React app
+│   └── main.tsx      # entry point
+│── package.json      # dependencies and scripts
+│── vite.config.ts    # Vite config
+│── tailwind.config.ts# Tailwind config
+│── README.md         # documentation
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f9035415-3ad4-44f3-9b3a-c3bf21227b61) and start prompting.
+📹 Demo Video (Deliverable)
+Showcase live AQI charts
+Demonstrate CPCB checklist
+Show QR code feature for communities
+Highlight mitigation measures
 
-Changes made via Lovable will be committed automatically to this repo.
+👥 Team
+Member 1 – Frontend Developer
+Member 2 – Data & ML (AQI Prediction)
+Member 3 – CPCB Guidelines & Deployment
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f9035415-3ad4-44f3-9b3a-c3bf21227b61) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Member 1 – Frontend Developer
+Member 2 – Data & ML (Predicted AQI)
+Member 3 – Research & CPCB Guidelines + Deployment
